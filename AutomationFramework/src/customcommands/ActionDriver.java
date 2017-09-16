@@ -15,7 +15,7 @@ public class ActionDriver extends StartandStop{
 	public static void click(By locator)
 	{
 		driver.findElement(locator).click();			
-		
+		System.out.println("Testing ");
 	}
 	public static void launchurl(String url)
 	{
